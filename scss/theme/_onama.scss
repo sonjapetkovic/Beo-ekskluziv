@@ -1,0 +1,20 @@
+.onama{
+.dash{
+    &:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #999;
+    margin-top: 15px;
+}
+}
+.btn{
+    background-color: $red!important;
+    color:#fff;
+    border-color: $red;
+    &:hover{
+        color:#ccc;
+    }
+}
+}

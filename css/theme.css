@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700|Open+Sans:400,400i,700|Pacifico|Roboto:400,400i,700&subset=latin-ext");
+html {
+  font-size: 14px; }
+
+img {
+  max-width: 100%; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+h3 {
+  font-family: "Roboto", sans-serif; }
+
+h5 {
+  font-family: "Roboto", sans-serif; }
+
+header .logo {
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-size: 40px; }
+header .navbar-light .navbar-brand {
+  color: #E84C3D; }
+
+.pocetna {
+  position: relative;
+  background-size: cover;
+  background-position: center right; }
+  .pocetna article {
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 1%; }
+  .pocetna .mouse {
+    position: absolute;
+    bottom: 2%;
+    right: 30px;
+    left: 800px;
+    display: block; }
+    .pocetna .mouse .scroll {
+      color: #E84C3D; }
+
+.onama .dash:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #999;
+  margin-top: 15px; }
+.onama .btn {
+  background-color: #E84C3D !important;
+  color: #fff;
+  border-color: #E84C3D; }
+  .onama .btn:hover {
+    color: #ccc; }
+
+.usluge {
+  background-color: #EBEBEB; }
+  .usluge .dash:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #999;
+    margin: 20px auto 0; }
+
+.counter {
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center; }
+
+.cenovnik {
+  background-color: #D7D7D7; }
+  .cenovnik .card-body {
+    background-color: #81868E;
+    color: #fff; }
+    .cenovnik .card-body:hover {
+      transition: 1s;
+      background-color: black;
+      color: #fff; }
+  .cenovnik .btn {
+    background-color: #E84C3D;
+    border-color: #E84C3D;
+    color: #fff; }
+    .cenovnik .btn:hover {
+      color: black; }
+  .cenovnik .list-group-item:hover {
+    transition: 1s;
+    background-color: #E84C3D;
+    color: #fff; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 8, 2019, 12:45:47 PM
+    Author     : sonja
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 8, 2019, 12:43:47 PM
+    Author     : sonja
+*/
+footer {
+  background-color: #E84C3D;
+  color: #fff; }
+
+/*# sourceMappingURL=theme.css.map */

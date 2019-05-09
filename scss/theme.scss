@@ -1,0 +1,21 @@
+
+
+//BOOTSTRAP COMPONENTS
+
+@import "_functions.scss";
+@import "_variables.scss";
+@import "mixins";
+
+//THEME COMPONENTS
+
+@import "theme/_fonts.scss";
+@import "theme/_base.scss";
+@import "theme/_header.scss";
+@import "theme/_pocetna.scss";
+@import "theme/_onama.scss";
+@import "theme/_usluge.scss";
+@import "theme/_counter.scss";
+@import "theme/_cenovnik.scss";
+@import "theme/_blog.scss";
+@import "theme/_contact.scss";
+@import "theme/_footer.scss";

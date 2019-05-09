@@ -1,0 +1,31 @@
+
+.cenovnik{
+     background-color: #D7D7D7;
+     
+    .card-body{
+        background-color:#81868E;
+        color:#fff;
+        &:hover{
+            transition: 1s;
+                background-color: black;
+                color:#fff;
+        }
+           
+        
+    }
+    .btn{
+        background-color: $red;
+        border-color: $red;
+        color:#fff;
+        &:hover{
+            color:black;
+        }
+    }
+     .list-group-item{
+                &:hover{
+                transition: 1s;
+                background-color: $red;
+                color:#fff;
+                }
+            }
+    }

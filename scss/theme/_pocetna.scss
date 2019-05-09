@@ -1,0 +1,25 @@
+
+
+.pocetna{
+    position:relative;
+    background-size:cover;
+    background-position: center right;
+    
+    article{
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 1%;
+}
+.mouse{
+    position: absolute;
+    bottom:2%;
+    right: 30px;
+    left: 800px;
+    display:block;
+    .scroll{
+        color:$red;
+    }
+}
+
+}
