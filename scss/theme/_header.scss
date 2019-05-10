@@ -2,6 +2,13 @@
 
 
 header{
+    transition:0.5s linear;
+    .header-active{
+        background-color: rgba(255,255,255,1);
+    }
+    .navbar-brand{
+        max-width: 50%;
+    }
     .logo{
         font-family: $font-pacifico;
         font-weight: $font-weight-bold;
@@ -12,4 +19,95 @@ header{
             color:$red;
         }
     } 
+    
+    .navbar-light .navbar-nav .nav-link{
+        color:#333b46;
+        padding: 5px 10px;
+        transition: 0.5s ease;
+    }
+    .navbar-nav{
+        background-color: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-item .nav-link.active
+    {
+        background: $red;
+        color: #fff;
+
+
+    }
+    .navbar-toggler{
+        border-color:$red!important;
+        background-color:$red;
+        overflow:hidden;
+        span{
+            display:block;
+            width:32px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px 0;
+            position:relative;
+            transition:0.5s linear;
+            
+            &:hover{
+                background: #fff;
+                background-color: $red;
+            }
+        }
+    }
+
+.navbar-nav{
+        .nav-link{
+            font-size: 1.1rem;
+            text-align: center;
+            border-bottom: 1px solid $red;
+            
+                color: #fff;
+            
+            &:hover, &.active{
+                
+                border-bottom: 1px solid $secondary;
+            }
+        }
+    }
+}//header end
+
+
+
+
+@media(min-width:768px){
+    
+    header{
+        .navbar-nav{
+            .nav-link{
+                border:none;
+                &:hover, &.active{
+                    border:none;
+                }
+            }
+        }
+       
+    
+    /*HEADER*/
+    
+    .navbar-light .navbar-nav .nav-link{
+    color:#333b46;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link.active
+{
+    background: transparent;
+    color: #E84C3D;
+    border-bottom: 2px solid #E84C3D;
+}
+
+.navbar-nav{
+    background: transparent;
+}
+    
+    
+}
 }

@@ -3,7 +3,7 @@ $(document).ready(function(){
     
     //HEADER ANIMATING//
     
-    function animateHeader(){
+   function animateHeader(){
         
         var scrollTop = $(window).scrollTop();
         if(scrollTop > 50){
@@ -53,107 +53,18 @@ $(document).ready(function(){
     });
   
   //COUNTER UP//
-  if($('.counter').length > 0 ){
-     $('.counter').counterUp({
+  
+   $('.counter-up').counterUp({
                 delay: 10,
                 time: 1000
             });
-        }
         
-         //FORM VALIDATION//
-         
-      //Form validation first//
-      $(function () {
-                    $(".subscribe-form").validate({
-                        highlight: function (element) {
-                            $(element).closest('.form-group').addClass("has-danger");
-                            $(element).addClass("form-control-danger");
-                        },
-                        unhighlight: function (element) {
-                            $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
-                            $(element).removeClass('form-control-danger').addClass('form-control-success');
-                        },
-                        rules: {
-                            
-                            email:{
-                                required:true,
-                                email:true
-                            }
-
-
-                        },
-                        messages: {
-                            
-                            email:{
-                               required:"the *Email fild is required!" ,
-                               email:"Please enter valid email address"
-                            }
-
-                        },
-                        errorElement: 'p',
-                        errorPlacement: function (error, element) {
-                            error.appendTo($(element).closest('.form-group').find('.error-msg'));
-                        }
-
-                    });
-                });
-           
-            //Form Validation firs end//
-            
-                  //FORM VALIDATION second start//
-         
-      $(function () {
-                    $(".contact-form").validate({
-                        highlight: function (element) {
-                            $(element).closest('.form-group').addClass("has-danger");
-                            $(element).addClass("form-control-danger");
-                        },
-                        unhighlight: function (element) {
-                            $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
-                            $(element).removeClass('form-control-danger').addClass('form-control-success');
-                        },
-                        rules: {
-                            name: {
-                                required: true
-                                
-                            },
-                            email:{
-                                required:true,
-                                email:true
-                            },
-                            message:{
-                                required:true
-                            }
-                           
-                        },
-                        messages: {
-                            name: {
-                                required: "The *Name field is required!"
-                                
-                            },
-                            email:{
-                               required:"The *Email fild is required!" ,
-                               email:"Please enter valid email address"
-                            },
-                            message:{
-                                required:"The message fild is required!"
-                            }
-
-                        },
-                        errorElement: 'p',
-                        errorPlacement: function (error, element) {
-                            error.appendTo($(element).closest('.form-group').find('.error-msg'));
-                        }
-
-                    });
-                });
-           
-            //Form Validation end//
-
-    
-            
-  
-    
+       
+        
+        //animate togler
+        $('.navbar-toggler').click(function(){
+            $(this).toggleClass('active');
+        });
     
 
         

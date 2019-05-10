@@ -7,7 +7,8 @@ img {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  position: relative; }
 
 h3 {
   font-family: "Roboto", sans-serif; }
@@ -15,13 +16,69 @@ h3 {
 h5 {
   font-family: "Roboto", sans-serif; }
 
-header .logo {
-  font-family: "Pacifico", cursive;
-  font-weight: 700;
-  font-size: 40px; }
-header .navbar-light .navbar-brand {
-  color: #E84C3D; }
+header {
+  transition: 0.5s linear; }
+  header .header-active {
+    background-color: white; }
+  header .navbar-brand {
+    max-width: 50%; }
+  header .logo {
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-size: 40px; }
+  header .navbar-light .navbar-brand {
+    color: #E84C3D; }
+  header .navbar-light .navbar-nav .nav-link {
+    color: #333b46;
+    padding: 5px 10px;
+    transition: 0.5s ease; }
+  header .navbar-nav {
+    background-color: #fff; }
+  header .navbar-light .navbar-nav .nav-link:hover,
+  header .navbar-light .navbar-nav .nav-item .nav-link.active {
+    background: #E84C3D;
+    color: #fff; }
+  header .navbar-toggler {
+    border-color: #E84C3D !important;
+    background-color: #E84C3D;
+    overflow: hidden; }
+    header .navbar-toggler span {
+      display: block;
+      width: 32px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px 0;
+      position: relative;
+      transition: 0.5s linear; }
+      header .navbar-toggler span:hover {
+        background: #fff;
+        background-color: #E84C3D; }
+  header .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    text-align: center;
+    border-bottom: 1px solid #E84C3D;
+    color: #fff; }
+    header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
+      border-bottom: 1px solid #6c757d; }
 
+@media (min-width: 768px) {
+  header {
+    /*HEADER*/ }
+    header .navbar-nav .nav-link {
+      border: none; }
+      header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
+        border: none; }
+    header .navbar-light .navbar-nav .nav-link {
+      color: #333b46;
+      padding: 5px 10px;
+      border-bottom: 2px solid transparent; }
+    header .navbar-light .navbar-nav .nav-link:hover,
+    header .navbar-light .navbar-nav .nav-item .nav-link.active {
+      background: transparent;
+      color: #E84C3D;
+      border-bottom: 2px solid #E84C3D; }
+    header .navbar-nav {
+      background: transparent; } }
 .pocetna {
   position: relative;
   background-size: cover;
@@ -40,6 +97,12 @@ header .navbar-light .navbar-brand {
     .pocetna .mouse .scroll {
       color: #E84C3D; }
 
+.onama .ml2 {
+  font-weight: 900;
+  font-size: 2rem; }
+.onama .ml2 .letter {
+  display: inline-block;
+  line-height: 1em; }
 .onama .dash:after {
   content: '';
   display: block;
