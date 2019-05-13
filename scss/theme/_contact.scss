@@ -1,10 +1,64 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : May 8, 2019, 12:43:47 PM
-    Author     : sonja
-*/
 
+
+.contact{
+    .dash{
+       &:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #999;
+     margin:20px auto 0;
+}
+}
+background-size: cover;
+    background-position: center;
+    
+   .form-control {
+    padding: 15px 20px;
+    font-size: 1rem;
+    height: auto;
+    line-height: 1.5;
+    color: #999999;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border-radius: 3px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #999;
+    background-color: transparent;
+    border-color: $primary;
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem $primary;
+}
+
+.subscribe textarea {
+    resize: none;
+    
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    padding-left: 25px;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 0px;
+    visibility: hidden;
+    display: none;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+}
+.informacije{
+    color: black;
+}
+
+}
