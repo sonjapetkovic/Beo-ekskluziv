@@ -3,7 +3,7 @@ $(document).ready(function(){
     
     //HEADER ANIMATING//
     
-   function animateHeader(){
+    function animateHeader(){
         
         var scrollTop = $(window).scrollTop();
         if(scrollTop > 50){

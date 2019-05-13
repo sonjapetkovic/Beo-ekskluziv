@@ -1,7 +1,13 @@
 
 .cenovnik{
      background-color: #D7D7D7;
-     
+     .card{
+         border-radius: 10px;
+         .card-body{
+             border-radius: 10px 10px 0 0px;
+            
+         }
+     }
     .card-body{
         background-color:#81868E;
         color:#fff;

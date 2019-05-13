@@ -12,5 +12,21 @@
      margin:20px auto 0;
 }
 }
+.service-item{
+       box-shadow: 5px 5px 8px 0px $gray-500; 
+       border-radius:10px;
+       &:hover{
+           transition: 1s;
+                background-color: $red;
+                color:#fff;
+                .fa{
+                    color: #fff;
+                }
+       }
+       .fa{
+           color: $primary;
+       }
+}
+
 
 }
