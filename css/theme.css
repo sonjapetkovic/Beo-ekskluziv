@@ -97,9 +97,6 @@ header {
     .pocetna .mouse .scroll {
       color: #E84C3D; }
 
-.onama .ml2 {
-  font-weight: 900;
-  font-size: 2rem; }
 .onama img {
   border-radius: 10px; }
 .onama .dash:after {
@@ -165,6 +162,16 @@ header {
     transition: 1s;
     background-color: #E84C3D;
     color: #fff; }
+
+.radovi .dash:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #999;
+  margin: 20px auto 0; }
+.radovi img {
+  border-radius: 10px; }
 
 /*
 To change this license header, choose License Headers in Project Properties.
