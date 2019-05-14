@@ -1,11 +1,10 @@
 
 
-
-header{
-    transition:0.5s linear;
-    .header-active{
+header.header-active{
     background: #fff;
 }
+header{
+    transition:0.5s linear;
     .navbar-brand{
         max-width: 50%;
     }
@@ -86,6 +85,8 @@ header{
                 }
             }
         }
+        
+       
        
     
     /*HEADER*/
@@ -110,4 +111,12 @@ header{
     
     
 }
+}
+
+@media(min-width:768px){
+    header{
+         .hamburger {
+            display: none;
+        }
+    }
 }
