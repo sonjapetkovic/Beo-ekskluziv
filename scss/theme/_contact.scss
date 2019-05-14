@@ -59,6 +59,12 @@ input[type="checkbox"] {
 }
 .informacije{
     color: black;
+    text-align: center;
 }
 
+}
+@media(min-width:768px){
+    .informacije{
+        text-align: right;
+    }
 }

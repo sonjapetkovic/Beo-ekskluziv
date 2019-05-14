@@ -19,7 +19,7 @@ h5 {
 header {
   transition: 0.5s linear; }
   header .header-active {
-    background: white; }
+    background: #fff; }
   header .navbar-brand {
     max-width: 50%; }
   header .logo {
@@ -88,6 +88,10 @@ header {
     display: table-cell;
     vertical-align: middle;
     min-width: 1%; }
+    .pocetna article .pacifico {
+      font-family: "Pacifico", cursive;
+      font-size: 25px;
+      color: black; }
   .pocetna .mouse {
     position: absolute;
     bottom: 2%;
@@ -97,24 +101,41 @@ header {
     .pocetna .mouse .scroll {
       color: #E84C3D; }
 
-.onama img {
-  border-radius: 10px; }
-.onama .dash:after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 2px;
-  background: #999;
-  margin-top: 15px; }
-.onama .btn {
-  background-color: #E84C3D !important;
-  color: #fff;
-  border-color: #E84C3D; }
-  .onama .btn:hover {
-    color: #ccc; }
+.onama {
+  text-align: center; }
+  .onama img {
+    border-radius: 10px; }
+  .onama .dash:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #999;
+    margin-top: 15px;
+    margin: 20px auto 0; }
+  .onama .btn {
+    background-color: #E84C3D !important;
+    color: #fff;
+    border-color: #E84C3D; }
+    .onama .btn:hover {
+      color: #ccc; }
 
+@media (min-width: 768px) {
+  .onama {
+    text-align: center; }
+    .onama .dash:after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 2px;
+      background: #999;
+      margin: 20px auto 0; } }
 .usluge {
   background-color: #EBEBEB; }
+  .usluge .pacifico {
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    color: black; }
   .usluge .dash:after {
     content: '';
     display: block;
@@ -141,6 +162,17 @@ header {
 
 .cenovnik {
   background-color: #D7D7D7; }
+  .cenovnik .pacifico {
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    color: black; }
+  .cenovnik .dash:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #999;
+    margin: 20px auto 0; }
   .cenovnik .card {
     border-radius: 10px; }
     .cenovnik .card .card-body {
@@ -163,6 +195,10 @@ header {
     background-color: #E84C3D;
     color: #fff; }
 
+.radovi .pacifico {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  color: black; }
 .radovi .dash:after {
   content: '';
   display: block;
@@ -226,10 +262,14 @@ and open the template in the editor.
     border: 0;
     padding: 0; }
   .contact .informacije {
-    color: black; }
+    color: black;
+    text-align: center; }
 
+@media (min-width: 768px) {
+  .informacije {
+    text-align: right; } }
 footer {
-  background-color: #E84C3D;
+  background-color: #adb5bd;
   color: #fff; }
 
 /*# sourceMappingURL=theme.css.map */

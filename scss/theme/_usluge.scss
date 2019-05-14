@@ -2,6 +2,11 @@
 
 .usluge{
     background-color:#EBEBEB;
+    .pacifico{
+           font-family: $font-pacifico;
+           font-size: 25px;
+           color:black;
+       }
     .dash{
        &:after{
     content: '';
@@ -26,6 +31,7 @@
        .fa{
            color: $primary;
        }
+       
 }
 
 

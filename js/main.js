@@ -67,6 +67,61 @@ $(document).ready(function(){
         });
     
 
+//Form validation//
+       $(function () {
+        $(".subscribe-form").validate({
+            highlight: function (element) {
+                $(element).closest('.form-group').addClass("has-danger");
+                $(element).addClass("form-control-danger");
+            },
+            unhighlight: function (element) {
+                $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
+                $(element).removeClass('form-control-danger').addClass('form-control-success');
+            },
+            rules: {
+                name: {
+                    required: true
+                },
+                email:{
+                    required:true,
+                    email:true
+                },
+                message:{
+                    required: true
+                },
+                'newsletter[]':{
+                    required: true
+                }
+
+
+            },
+            messages: {
+                name: {
+                    required: " *Polje ime je obavezno!"
+                },
+                email:{
+                    required: 'Polje *Email je obavezno',
+                    email:'Molimo Vas unesite Vasu Email adresu!'
+                },
+                message:{
+                    required: 'Polje *Poruka je obavezno!'
+                }
+                
+
+            },
+            errorElement: 'p',
+            errorPlacement: function (error, element) {
+                error.appendTo($(element).closest('.form-group').find('.error-msg'));
+            }
+
+        });
+    });
+      
+    
+    
+    
+
+
         
         //DOCUMENT READY END// 
 });
