@@ -232,6 +232,43 @@ header {
     height: 2px;
     background: #999;
     margin: 20px auto 0; }
+  .blog h4 a {
+    color: black; }
+    .blog h4 a:hover {
+      transition: 0.5s;
+      color: #E84C3D; }
+  .blog .img-holder {
+    position: relative;
+    background: #ccc url("assets/logo-small.png") no-repeat center center;
+    background-size: 80px auto;
+    overflow: hidden;
+    display: block; }
+    .blog .img-holder:after {
+      content: '';
+      display: block;
+      width: 100%; }
+    .blog .img-holder.size-1by1:after {
+      padding-top: 100%; }
+    .blog .img-holder.size-4by3:after {
+      padding-top: 75%; }
+    .blog .img-holder.size-16by9:after {
+      padding-top: 56.25%; }
+    .blog .img-holder img {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+  .blog .news-item {
+    background: #fff;
+    border-radius: 10px; }
+  .blog .news-item > * {
+    padding: 15px; }
+  .blog .news-item .news-header {
+    border-top: 1px solid #ccc; }
+  .blog .news-item .published {
+    margin-right: 10px;
+    color: #aaa; }
 
 .contact {
   background-size: cover;
