@@ -992,4 +992,35 @@ footer {
     bottom: 0;
     transform: rotate(-90deg); }
 
+.vest-websajt p {
+  font-size: 16px; }
+.vest-websajt h1 {
+  color: #000; }
+  .vest-websajt h1:hover {
+    color: #E84C3D; }
+
+@media (min-width: 768px) {
+  .vest-websajt p {
+    font-size: 20px; } }
+.vest-responsive p {
+  font-size: 16px; }
+.vest-responsive h1 {
+  color: #000; }
+  .vest-responsive h1:hover {
+    color: #E84C3D; }
+
+@media (min-width: 768px) {
+  .vest-responsive p {
+    font-size: 20px; } }
+.vest-seooptimizacija p {
+  font-size: 16px; }
+.vest-seooptimizacija h1 {
+  color: #000; }
+  .vest-seooptimizacija h1:hover {
+    color: #E84C3D; }
+
+@media (min-width: 768px) {
+  .vest-seooptimizacija p {
+    font-size: 20px; } }
+
 /*# sourceMappingURL=theme.css.map */

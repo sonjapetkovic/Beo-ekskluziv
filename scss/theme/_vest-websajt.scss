@@ -1,0 +1,21 @@
+
+
+.vest-websajt{
+    p{
+        font-size: 16px;
+    }
+    h1{
+        color:#000;
+        &:hover{
+            color:$primary;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .vest-websajt{
+        p{
+            font-size: 20px;
+        }
+    }
+}
