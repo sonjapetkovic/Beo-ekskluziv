@@ -1022,5 +1022,37 @@ footer {
 @media (min-width: 768px) {
   .vest-seooptimizacija p {
     font-size: 20px; } }
+.vest-wedizajn p {
+  font-size: 16px; }
+.vest-wedizajn h1 {
+  color: #000; }
+  .vest-wedizajn h1:hover {
+    color: #E84C3D; }
+
+@media (min-width: 768px) {
+  .vest-webdizajn p {
+    font-size: 20px; } }
+.vest-rangiranjenagooglu img {
+  max-width: 50%; }
+.vest-rangiranjenagooglu p {
+  font-size: 16px; }
+.vest-rangiranjenagooglu h1 {
+  color: #000; }
+  .vest-rangiranjenagooglu h1:hover {
+    color: #E84C3D; }
+
+@media (min-width: 768px) {
+  .vest-rangiranjenagooglu p {
+    font-size: 20px; } }
+.vest-internet-prodavnica p {
+  font-size: 16px; }
+.vest-internet-prodavnica h1 {
+  color: #000; }
+  .vest-internet-prodavnica h1:hover {
+    color: #E84C3D; }
+
+@media (min-width: 768px) {
+  .vest-internet-prodavnica p {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=theme.css.map */
