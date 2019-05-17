@@ -322,7 +322,23 @@ header {
     text-align: right; } }
 footer {
   background-color: #adb5bd;
-  color: #fff; }
+  color: black; }
+  footer .logo {
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-size: 25px;
+    color: #E84C3D; }
+  footer .social .fa-facebook-square {
+    color: #007bff; }
+  footer .social .fa-linkedin-square {
+    color: blue; }
+  footer .social .fa-instagram {
+    color: purple; }
+  footer .social .fa-twitter-square {
+    color: #17a2b8; }
+  footer .social .fa:hover {
+    transform: scale(1.3);
+    transition: 0.5s ease; }
 
 /*!
  * Hamburgers
