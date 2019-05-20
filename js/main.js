@@ -67,8 +67,8 @@ $(document).ready(function () {
 
 
 //Form validation//
-    $(function () {
-        $(".subscribe-form").validate({
+       $(function () {
+        $(".contact-form").validate({
             highlight: function (element) {
                 $(element).closest('.form-group').addClass("has-danger");
                 $(element).addClass("form-control-danger");
@@ -81,31 +81,25 @@ $(document).ready(function () {
                 name: {
                     required: true
                 },
-                email: {
-                    required: true,
-                    email: true
+                email:{
+                    required:true,
+                    email:true
                 },
-                message: {
-                    required: true
-                },
-                'newsletter[]': {
+                message:{
                     required: true
                 }
-
-
             },
             messages: {
                 name: {
-                    required: " *Polje ime je obavezno!"
+                    required: "The *Name field is required!"
                 },
-                email: {
-                    required: 'Polje *Email je obavezno',
-                    email: 'Molimo Vas unesite Vasu Email adresu!'
+                email:{
+                    required: 'The *Email field is required!',
+                    email:'Please enter a valid Email address!'
                 },
-                message: {
-                    required: 'Polje *Poruka je obavezno!'
+                message:{
+                    required: 'The *Message field is required!'
                 }
-
 
             },
             errorElement: 'p',
