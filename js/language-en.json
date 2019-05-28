@@ -8,5 +8,82 @@
     "blog": "blog",
     "work": "work",
     "contact": "contact"
-  }
+  },
+  "slogan":{
+    "slogan.1": "We are creating websites ",
+    "slogan.2": "and we are the best in it…"
+    },
+    "portfolio":{
+    "portfolio.title": "Portfolio",
+    "portfolio.p": "We are young firm that creates web sites, applications and software solutions. As young but experienced team We work as partners with our clients.Our main goal is our client satisfaction and realization of his vision. We are here to listen, to give advice , to analyze and make a deal. We wish to help You to make your goal and improve your business.We are people as you are, so be free to contact us."
+    },
+    "services":{
+    "services": "WHAT WE DO",
+    "services.subtitle": "These are the services that we offer",
+    "services.title.1": "ENQUIRING AND ANALYZING",
+    "services.p1": "We enquiring what are your needs so you could make your goal. We analyze your competition so we could make you stand out." ,
+    "services.title.2": "CREATING AND WEB DESIGN",
+    "services.p2": "Web design is very important for every business no matter is it small or big, because every firm makes its brand from beginning.",
+    "services.title.3": "Coding and making web sites",
+    "services.p3": "Thru process of coding we use the best technologies so your web site will be user friendly and attractive look." ,
+    "services.title.4" : "SEO optimization",
+    "services.p4": "Search engine optimization is the process of increasing the quality and quantity of website traffic, increasing visibility of a website or a web page to users of a web search engine." ,
+    "services.title.5": "Upkeep of web site.",
+    "services.p5": "Web site is a live “thing” and it’s need to be  updated once in a wile , sometimes even often . Or put some new images, videos, information, notifications …",
+     "services.title.6": "Responsive design" ,
+     "services.p6": "Responsive design is adaptability of your site for all devices . Responsive design has one big rule and that is “Mobile first” witch means that all web sites, applications that are building should build first for mobile phones, tablets and at last for desktop computers."   
+    },
+    "counter":{
+    "likes":"likes",
+     "followers": "followers",
+     "project": "project completed",
+     "happyclients": "happy clients"   
+    },
+    "pricelist":{
+    "pricelist.title": "pricelist",
+    "pricelist.subtitle" : "Based on most frequent requests of our clients we created some project packages."    
+    },
+    "package-list": {
+    "hosting":"Hosting",
+    "domen":"Domain(name of website)",
+    "cont.form" :"Contact form" ,
+    "on.p.seo" :"On Page SEO",
+    "ga": "Google Analytics", 
+    "responsive": "Responsive design",
+    "soc.netw": "Connecting with social networks",
+    "consalting": "Consulting",
+    "sendq":"Send query" ,
+    "gmap": "Google map",
+    "orders" : "Review and ordering items online" ,
+    "wish": "Programing and coding based on your wishes",
+    "basic.custom": "is coded web site from zero " ,
+    "onepage": "One page template"  
+    },
+    "ourwork":{
+     "ourwork-title": "These are some of our works…"   
+    },
+    "contact-form":{
+    "cont-us": "Contact us",
+    "names": "Name and Lastname",
+     "ymessage": "Your message",
+     "sendm" : "send"   
+    },
+    "Contact-informations":{
+    "Bus-name" : "Business name",
+    "adres": "Address"   ,
+    "worktime": "Working time" ,
+    "mond" : "Monday" ,
+    "tues": "Tuesday" ,
+    "wedn": "Wednesday",
+    "thur": "Thursday:",
+    "fri": "Friday" ,
+    "sut": "Saturday: Closed" ,
+     "sund": "Sunday:Closed",
+    "help-title": "We are here to help",
+    "help-subtitle" : "Be free to contact us, we are people as You are. We will be glad to answer on Your questions. We are your partners in improving Your business, because Your success is our success too."   
+    },
+    "footer-text":{
+    "footer-text1": "Creating and building web sites, applications and software solutions",
+    "footer-text2": "Call us and make an meetingt, We would be glad to share our experiences with you and offer you the best solution for you. We love our job and we wish that web sites, applications or software solutions that we make bring you expansion of clients and improving of business and success."    
+    }
 }
