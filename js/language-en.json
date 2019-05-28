@@ -1,0 +1,12 @@
+{
+  "title": "Beo-ekskluziv",
+  "menu": {
+    "home": "home",
+    "portfolio": "portfolio",
+    "services": "services",
+    "prices": "prices",
+    "blog": "blog",
+    "work": "work",
+    "contact": "contact"
+  }
+}

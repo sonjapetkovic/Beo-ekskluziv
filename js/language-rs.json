@@ -1,0 +1,12 @@
+{
+  "title": "Beo-ekskluziv",
+  "menu": {
+    "home": "početna",
+    "portfolio": "portfolio",
+    "services": "usluge",
+    "prices": "cenovnik",
+    "blog": "blog",
+    "work": "radovi",
+    "contact": "kontakt"
+  }
+}
