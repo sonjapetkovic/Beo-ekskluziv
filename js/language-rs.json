@@ -14,24 +14,24 @@
     "slogan2": "i najbolji smo u tome…"
     },
     "portfolio":{
-    "portfolio.title": "Portfolio",
-    "portfolio.p": "Mi smo mlada firma, koja se bavi izradom web-sajtova, aplikacija i softvera.Kao mlad, ali iskusan tim prema svojim klijentima postavljamo se partnerski,sa imperativom da klijent bude zadovoljan i da se njegova vizija realizuje.Tu smo da saslušamo, posavetujemo, analiziramo i dogovorimo se.Želimo da Vam pomognemo da ostvarite svoj cilj i unapredite svoj posao.I mi smo ljudi kao i Vi,s'toga budite slobodi da nas pitajte šta Vas zanima."
+    "title": "PORTFOLIO",
+    "p": "Mi smo mlada firma, koja se bavi izradom web-sajtova, aplikacija i softvera.Kao mlad, ali iskusan tim prema svojim klijentima postavljamo se partnerski,sa imperativom da klijent bude zadovoljan i da se njegova vizija realizuje.Tu smo da saslušamo, posavetujemo, analiziramo i dogovorimo se.Želimo da Vam pomognemo da ostvarite svoj cilj i unapredite svoj posao.I mi smo ljudi kao i Vi,s'toga budite slobodi da nas pitajte šta Vas zanima."
     },
     "services":{
-    "services": "Čime se bavimo",
-    "services.subtitle": "Ovo su usluge koje pružamo",
-    "services.title.1": "Istražujemo i analiziramo",
-    "services.p1": " Istražujemo koje su Vaše potrebe za sajt kako bi postigli željeni cilj.Analiziramo konkurenciju i radimo na tome da Vas izdvojimo i što bolje pozicioniramo." ,
-    "services.title.2": "kreiranje i izrada web sajta",
-    "services.p2": "Od izuzetnog značaja za svaku firmu je da ima svoj logoi gradi svoj brend od početka. Jer to je lična karta svake firme i ono počemu ćete biti prepoznati i zapamćeni.",
-    "services.title.3": "Kodiranje i izrada web sajta",
-    "services.p3": "Prilikom kodiranja web sajta koristimo najnovije tehnologije, kako bi Vaš sajt bio privlačan, a takođe okrenut korisniku i njegovom lakom snalaženju na sajtu",
-    "services.title.4" : "SEO optimizacija",
-    "services.p4": "SEO je skraćenica od Search Engine Optimization, što  znači optimizacija za pretraživače/korisnike. Ključne reči koje se unose u pretragu i po kojima Vas pronalaze klijenti. To je skup složenih strategija kojima se Vaš sajt bolje pozicionira na Google-u." ,
-    "services.title.5": "Održavanje web sajta",
-    "services.p5": "Web sajt je ''živa stvar'', koja zahteva da se redovno ažurira,uređuje i dopunjnuje aktuelnim podacima. Nepohodno je sajt ako ne redovno, onda bar, sa vremena na vreme ažurirati, uneti nove slike, obaveštenja ili podatke.",
-     "services.title.6": "Responsive dizajn" ,
-     "services.p6": "Responsive dizajn je prilagođenost Vašeg sajta svim uređajima. Kod responsive dizajna važi pravilo ''Mobile first '' što znači da se sajtovi i aplikacije prvenstveno rade za mobilne telefone, tablete, pa tek onda za desktop računare."   
+    "services": "ČIME SE BAVIMO",
+    "subtitle": "Ovo su usluge koje pružamo",
+    "title1": "ISTRAŽUJEMO I ANALIZIRAMO",
+    "p1": " Istražujemo koje su Vaše potrebe za sajt kako bi postigli željeni cilj.Analiziramo konkurenciju i radimo na tome da Vas izdvojimo i što bolje pozicioniramo." ,
+    "title.2": "KREIRANJE I IZRADA WEB SAJTA",
+    "p2": "Od izuzetnog značaja za svaku firmu je da ima svoj logoi gradi svoj brend od početka. Jer to je lična karta svake firme i ono počemu ćete biti prepoznati i zapamćeni.",
+    "title3": "KODIRANJE I IZRADA WEB SAJTA",
+    "p3": "Prilikom kodiranja web sajta koristimo najnovije tehnologije, kako bi Vaš sajt bio privlačan, a takođe okrenut korisniku i njegovom lakom snalaženju na sajtu",
+    "title4" : "SEOOPTIMIZACIJA",
+    "p4": "SEO je skraćenica od Search Engine Optimization, što  znači optimizacija za pretraživače/korisnike. Ključne reči koje se unose u pretragu i po kojima Vas pronalaze klijenti. To je skup složenih strategija kojima se Vaš sajt bolje pozicionira na Google-u." ,
+    "title5": "ODRŽAVANJE SAJTA",
+    "p5": "Web sajt je ''živa stvar'', koja zahteva da se redovno ažurira,uređuje i dopunjnuje aktuelnim podacima. Nepohodno je sajt ako ne redovno, onda bar, sa vremena na vreme ažurirati, uneti nove slike, obaveštenja ili podatke.",
+     "title6": "RESPONSIV DIZAJN" ,
+     "p6": "Responsive dizajn je prilagođenost Vašeg sajta svim uređajima. Kod responsive dizajna važi pravilo ''Mobile first '' što znači da se sajtovi i aplikacije prvenstveno rade za mobilne telefone, tablete, pa tek onda za desktop računare."   
     },
      "counter":{
     "likes":"lajkova",
@@ -40,50 +40,53 @@
      "happyclients": "zadovoljnh klijenata"   
     },
     "pricelist":{
-    "pricelist.title": "cenovnik",
-    "pricelist.subtitle" : " Na osnovu najčešćih zahteva klijenata, formirali smo pakete projekata"    
+    "title": "CENOVNIK",
+    "subtitle" : " Na osnovu najčešćih zahteva klijenata, formirali smo pakete projekata"    
     },
     "package-list": {
     "hosting":"Hosting",
     "domen":"Domen(ime sajta)",
-    "cont.form" :"Kontakt forma" ,
-    "on.p.seo" :"On Page SEO",
+    "contform" :"Kontakt forma" ,
+    "onpseo" :"On Page SEO",
     "ga": "Google Analytics", 
     "responsive": "Responsive dizajn",
-    "soc.netw": "Povezivanje sa društvenim mrežama",
+    "socnetw": "Povezivanje sa društvenim mrežama",
     "consalting": "Konsalting",
     "sendq":"Pošalji upit" ,
     "gmap": "Google mapa",
     "orders" : "Pregled i naručivanje artikala" ,
     "wish": "Programiranje po Vašim željama",
-    "basic.custom": "je codiran sajt od nule " ,
+    "basiccustomtitle":"OSNOVNI CUSTOM SAJT", 
+    "basiccustom": "je codiran sajt od nule " ,
     "onepage": "One page template"  
     },
      "ourwork":{
-     "ourwork-title": "Naši radovi"   
+     "title": "Naši radovi",
+     "subtitle": "Ovo su neki od naših radova"
     },
-    "contact-form":{
-    "cont-us": "Kontaktirajte nas",
+    "contactform":{
+    "cont-us": "KONTAKTIRAJTE NAS",
     "names": "Ime i prezime",
      "ymessage": "Vaša poruka",
      "sendm" : "pošalji"   
     },
-    "Contact-informations":{
-    "Bus-name" : "Poslovno ime",
-    "adres": "Adresa"   ,
+    "contactinformations":{
+     "title":"KONTAKT INFORMACIJE",   
+    "bus-name" : "Poslovno ime:Beo-Ekskluziv doo",
+    "adres": "Adresa:Indire Gandi 11"   ,
     "worktime": "Radno vreme" ,
-    "mond" : "Ponedeljak" ,
-    "tues": "Utorak" ,
-    "wedn": "Sreda",
-    "thur": "Četvrtak:",
-    "fri": "Petak" ,
+    "mond" : "Ponedeljak: 09.00-17h" ,
+    "tues": "Utorak: 09.00-17h " ,
+    "wedn": "Sreda: 09.00-17h",
+    "thur": "Četvrtak:09.00-17h",
+    "fri": "Petak: 09.00-17h" ,
     "sut": "Subota: zatvoreno" ,
      "sund": "Nedelja: zatvoreno",
     "help-title": "Tu smo da pomognemo",
     "help-subtitle" : "Budite slobodni da nas kontaktirate, mi smo ljudi kao i Vi. Rado ćemo Vam odgovoriti na pitanja i pojasniti nepoznatosti. Mi smo Vaši partneri ka unapredjenju posla. Vaš uspeh je i naš uspeh."   
     },
-    "footer-text":{
-    "footer-text1": "Izrada web sajtova, aplikacaija i softverskih rešenja.",
-    "footer-text2": "Pozovite nas i zakažite sastanak, rado ćemo podeliti naša iskustva sa Vama i ponuditi najbolje rešenje za Vas. Mi volimo svoj posao i želimo da Vam sajtovi, aplikacije ili softverska rešenja koje mi pravimo donesu proširenje klijenata, biznisa i uspeh."    
+    "footertext":{
+    "footertext1": "Izrada web sajtova, aplikacaija i softverskih rešenja.",
+    "footertext2": "Pozovite nas i zakažite sastanak, rado ćemo podeliti naša iskustva sa Vama i ponuditi najbolje rešenje za Vas. Mi volimo svoj posao i želimo da Vam sajtovi, aplikacije ili softverska rešenja koje mi pravimo donesu proširenje klijenata, biznisa i uspeh."    
     }
 }
