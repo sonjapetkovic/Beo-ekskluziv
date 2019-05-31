@@ -1,5 +1,27 @@
 $(document).ready(function () {
-
+    
+    var language = $.cookie('language');
+    if (language !== undefined) {
+        $('[data-localize]').localize("js/language", {language: language});
+    }
+    
+    $('#language-select').change(function () {
+        let lang = $(this).children("option:selected").val();
+        $('[data-localize]').localize("js/language", {language: lang});
+        $.cookie('language', lang, {expires: 365});
+    });
+    
+    $('#rs').click(function(){
+       let lang = $(this).attr('data-lang');
+       $('[data-localize]').localize("js/language", {language: lang});
+       $.cookie('language', lang, {expires:365});
+    });
+    
+    $('#en').click(function(){
+        let lang = $(this).attr('data-lang');
+        $('[data-localize]').localize("js/language", {language: lang});
+        $.cookie('language', lang, {expires:365});
+    });
 
     //HEADER ANIMATING//
 

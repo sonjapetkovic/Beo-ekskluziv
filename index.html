@@ -100,11 +100,17 @@ and open the template in the editor.
                             <li class="nav-item">
                                 <a class="nav-link text-uppercase" href="#kontakt" data-localize="menu.contact">kontakt</a>
                             </li>
-                            <li>
-                                <select id="language-select">
-                                    <option id="en">en</option>
-                                    <option id="rs">rs</option>
-                                </select>
+                            <li class="nav-item" >
+                                <a id="rs" class="nav-link text-uppercase " data-lang="rs">
+                                    <img src="img/serbiaflag.png" alt=""/>
+                                    <span>Srpski jezik</span>  
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="en" class="nav-link text-uppercase" data-lang="en">
+                                    <img src="img/engishflag.png" alt=""/>
+                                    <span >English</span>
+                                </a>
                             </li>
                     </div>
                 </nav>
@@ -545,16 +551,14 @@ and open the template in the editor.
         <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
         <script src="js/counterup.js" type="text/javascript"></script>
         <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/jquery.cookie.js"></script>
         
         <!--All page js-->
         <script src="js/main.js" type="text/javascript"></script>
 
         <script src="js/jquery.localize.min.js" type="text/javascript"></script>
         <script type="text/javascript">
-            $('#language-select').change(function () {
-                let lang = $(this).children("option:selected").val();
-                $('[data-localize]').localize("js/language", {language: lang});
-            });
+            
         </script>
     </body>
 </html>
